@@ -1321,7 +1321,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #68889F;
 		text-decoration: none;
 	}
 
@@ -1534,7 +1534,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #68889F;
 		}
 
 	.select-wrapper {
@@ -1644,7 +1644,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #68889F;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1736,7 +1736,6 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2101,8 +2100,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #68889F;
+			color: #68889F !important;
 		}
 
 		input[type="submit"].icon,
@@ -2147,8 +2146,8 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #68889F;
+			border-color: #68889F;
 			color: #ffffff !important;
 		}
 
@@ -2318,7 +2317,7 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 5em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
