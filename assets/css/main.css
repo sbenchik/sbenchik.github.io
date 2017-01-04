@@ -1680,6 +1680,10 @@
 		opacity: 1.0;
 	}
 
+	#message{
+		height: 10em;
+	}
+
 /* Box */
 
 	.box {
@@ -2261,7 +2265,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #BABABA;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2319,6 +2323,7 @@
 		max-width: 54em;
 		padding: 5em 4em 4em 4em;
 		width: calc(100% - 35%);
+		color: #7D7D7D;
 	}
 
 		#main > section {
@@ -2332,6 +2337,9 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
+	strong{
+		color: #3B3B3B;
+	}
 
 /* Touch */
 
