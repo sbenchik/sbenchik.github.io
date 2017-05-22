@@ -1,0 +1,69 @@
+
+.center{ text-align: center; }
+
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+.intro{
+    background: url(../assets/purdue2.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.intro-text{
+    position: relative; 
+    top: 40%;
+}
+
+.background-pic{
+    background: rgba(0,0,0,.7); 
+    height: 100%; 
+    color: white;
+}
+
+.about{
+    background: #eee;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: #666;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.work{
+    width: 100%;
+    /*background: #1D2726;
+    color: #eee;*/
+    background: #eee;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.project{
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.project a{
+    color: #666;
+    border-bottom: 1.5px dashed;
+    text-decoration: none;
+}
