@@ -47,11 +47,15 @@ html, body{
     color: white;
 }
 
+.heading{
+    font-size: 40px;
+}
+
 .about{
     background: #eee;
     font-size: 1.4em;
     line-height: 1.6em;
-    /*color: #666;*/
+    color: #666;
 }
 
 .about-text{
@@ -62,8 +66,6 @@ html, body{
 
 .work{
     width: 100%;
-    /*background: #1D2726;
-    color: #eee;*/
     background: #eee;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -72,13 +74,14 @@ html, body{
 }
 
 .project{
-    text-align: center;
+    text-align: left;
     padding-right: 3%;
     padding-left: 3%;
 }
 
 .project a{
-    color: #666;
-    border-bottom: 1.5px dashed;
     text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
 }
